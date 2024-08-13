@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Banner Management Dashboard</h1>
+    <form id="banner-form">
+        <label for="description">Banner Description:</label>
+        <input type="text" id="description" name="description">
+        
+        <label for="timer">Countdown Timer (seconds):</label>
+        <input type="number" id="timer" name="timer">
+        
+        <label for="link">Banner Link:</label>
+        <input type="url" id="link" name="link">
+        
+        <label for="is_visible">Banner Visible:</label>
+        <input type="checkbox" id="is_visible" name="is_visible">
+        
+        <button type="submit">Update Banner</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
