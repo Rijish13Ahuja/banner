@@ -47,3 +47,5 @@ CREATE TABLE banners (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
+![image](https://github.com/user-attachments/assets/12a3d669-a6ff-48d9-8550-5232a2f6a286)
+
